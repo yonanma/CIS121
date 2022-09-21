@@ -14,19 +14,20 @@ tax= x * 0.11# adding the tax
 
 print (x + tax)
 """
+"""
 #3
-ph="6518083815"
-print("(",ph[0:3],")",ph[3:6],"-",ph[6:10]) 
-
+ph="6518083815" #input
+print("(",ph[0:3],")",ph[3:6],"-",ph[6:10])# usiing string munipilation 
+"""
 
 #4
 """
-for x in range (1,61):
-    if 48 % x == 0:
+for x in range (1,61): # this line of code helps me go through each number in the given range 
+    if 48 % x == 0:# finding the 10 divisor
         if x < 15:
-            x % 2==0
+            x % 2==0 # checking if even
             print (x)
         elif x >= 15:
-            x % 2==0
+            x % 2==0 #checking if even
             print("I generated the number",x, "randomly")
 """
